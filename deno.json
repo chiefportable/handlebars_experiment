@@ -1,0 +1,9 @@
+{
+    "tasks": {
+        "dev": "deno run --watch -A src/main.ts"
+    },
+    "imports": {
+        "@std/assert": "jsr:@std/assert@1",
+        "$handlebars": "https://deno.land/x/handlebars@v0.10.0/mod.ts"
+    }
+}
